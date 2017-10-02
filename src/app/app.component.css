@@ -1,0 +1,41 @@
+.user-list .user:nth-child(2n-1) {
+    background-color: #4E3B3B;
+}
+
+.user {
+    background-color: #3B454E;
+    color: #B4B4B4;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    width: 200px;
+    transition: 0.5s;
+}
+
+.user:hover {
+    width: 220px;
+    color: #E4E4E4;
+}
+
+.user:hover .remove-user {
+    display: block;
+}
+
+.remove-user {
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 50px;
+    float: right;
+    line-height: 25px;
+    cursor: pointer;
+    display: none;
+}
+
+.remove-user:hover {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
